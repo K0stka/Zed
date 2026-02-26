@@ -1,0 +1,311 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "wsl_connections": [
+        {
+            "distro_name": "Ubuntu",
+            "user": null,
+            "projects": [
+                {
+                    "paths": ["/home/k0stka"]
+                },
+                {
+                    "paths": ["/home/k0stka/vut/IVS/Projekt1/"]
+                },
+                {
+                    "paths": ["/home/k0stka/vut/IZG/lab1"]
+                }
+            ]
+        }
+    ],
+    "ssh_connections": [
+        {
+            "host": "vps",
+            "args": [],
+            "projects": [],
+            "nickname": "K0stka VPS"
+        },
+        {
+            "host": "byttorrent",
+            "username": "byttorrent",
+            "args": [],
+            "projects": [
+                {
+                    "paths": ["/home/byttorrent"]
+                }
+            ]
+        }
+    ],
+    "use_system_prompts": false,
+    "lsp": {
+        "vtsls": {
+            "settings": {
+                "typescript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always"
+                    }
+                },
+                "javascript": {
+                    "updateImportsOnFileMove": {
+                        "enabled": "always"
+                    }
+                }
+            },
+            "enable_lsp_tasks": true
+        }
+    },
+    "vim": {
+        "use_system_clipboard": "on_yank",
+        "cursor_shape": {
+            "normal": "hollow"
+        }
+    },
+    "vim_mode": true,
+    "notification_panel": {
+        "button": true
+    },
+    "tab_size": 4,
+    "theme": "Gruvbox Dark Hard",
+    "text_rendering_mode": "subpixel",
+    "ui_font_family": "Cascadia Code",
+    "ui_font_weight": 400.0,
+    "preferred_line_length": 120,
+    "gutter": {
+        "folds": false
+    },
+    "scrollbar": {
+        "axes": {
+            "vertical": true,
+            "horizontal": true
+        },
+        "cursors": true,
+        "show": "always"
+    },
+    "indent_guides": {
+        "background_coloring": "disabled",
+        "coloring": "fixed"
+    },
+    "inline_code_actions": false,
+    "icon_theme": "Colored Zed Icons Theme Dark",
+    "preview_tabs": {
+        "enable_preview_from_project_panel": true
+    },
+    "agent": {
+        "default_profile": "write",
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-5.2-codex"
+        },
+        "dock": "left",
+        "favorite_models": [
+            {
+                "provider": "copilot_chat",
+                "model": "gpt-5.3-codex"
+            },
+            {
+                "provider": "copilot_chat",
+                "model": "gemini-3-pro-preview"
+            }
+        ],
+        "model_parameters": []
+    },
+    "git_panel": {
+        "scrollbar": {
+            "show": "always"
+        },
+        "status_style": "label_color",
+        "tree_view": true,
+        "dock": "right"
+    },
+    "outline_panel": {
+        "indent_size": 14.0,
+        "file_icons": true,
+        "folder_icons": true,
+        "dock": "right",
+        "button": false
+    },
+    "bottom_dock_layout": "left_aligned",
+    "tabs": {
+        "close_position": "right",
+        "show_diagnostics": "all",
+        "file_icons": true,
+        "git_status": true
+    },
+    "tab_bar": {
+        "show_pinned_tabs_in_separate_row": false,
+        "show_nav_history_buttons": false,
+        "show_tab_bar_buttons": false,
+        "show": true
+    },
+    "title_bar": {
+        "show_branch_name": true,
+        "show_menus": false,
+        "show_user_picture": false,
+        "show_user_menu": true,
+        "show_sign_in": true,
+        "show_project_items": true,
+        "show_onboarding_banner": false,
+        "show_branch_icon": true
+    },
+    "debugger": {
+        "button": false
+    },
+    "terminal": {
+        "alternate_scroll": "on",
+        "toolbar": {
+            "breadcrumbs": false
+        },
+        "blinking": "on",
+        "cursor_shape": "bar",
+        "button": false
+    },
+    "status_bar": {
+        "cursor_position_button": false,
+        "active_language_button": false,
+        "line_endings_button": false
+    },
+    "search": {
+        "whole_word": true,
+        "button": false,
+        "center_on_match": true
+    },
+    "use_smartcase_search": true,
+    "diagnostics": {
+        "button": true,
+        "inline": {
+            "enabled": true
+        }
+    },
+    "image_viewer": {
+        "unit": "decimal"
+    },
+    "colorize_brackets": false,
+    "inlay_hints": {},
+    "always_treat_brackets_as_autoclosed": true,
+    "toolbar": {
+        "quick_actions": false,
+        "selections_menu": false,
+        "agent_review": false,
+        "breadcrumbs": false,
+        "code_actions": false
+    },
+    "relative_line_numbers": "enabled",
+    "auto_signature_help": false,
+    "buffer_line_height": {
+        "custom": 1.3
+    },
+    "buffer_font_features": {
+        "lign": true
+    },
+    "redact_private_values": true,
+    "when_closing_with_no_tabs": "keep_window_open",
+    "edit_predictions": {
+        "provider": "copilot"
+    },
+    "project_panel": {
+        "entry_spacing": "standard",
+        "starts_open": false,
+        "indent_size": 16.0,
+        "hide_hidden": false,
+        "drag_and_drop": true,
+        "hide_root": false,
+        "bold_folder_labels": false,
+        "folder_icons": true,
+        "dock": "right",
+        "button": true,
+        "auto_reveal_entries": false,
+        "auto_fold_dirs": false
+    },
+    "git": {
+        "inline_blame": {
+            "enabled": false
+        }
+    },
+    "base_keymap": "VSCode",
+    "buffer_font_family": "Cascadia Code",
+    "file_types": {
+        "apacheconf": ["*.htaccess.template"],
+        "dotenv": [".env*"],
+        "javascript": ["*.dbclient-js"],
+        "jsonl": ["*.ndjson"],
+        "sql": ["*.sqlbook"],
+        "php": ["*.php"]
+    },
+    "auto_indent_on_paste": true,
+    "linked_edits": true,
+    "use_on_type_format": true,
+    "ui_font_size": 16.0,
+    "buffer_font_size": 13.0,
+    "collaboration_panel": {
+        "button": false
+    },
+    "file_finder": {
+        "modal_max_width": "large"
+    },
+    "file_scan_inclusions": ["**/.env*"],
+    "global_lsp_settings": {
+        // "button": false
+    },
+    "experimental.theme_overrides": {
+        "vim.normal.foreground": "#282828",
+        "vim.helix_normal.foreground": "#282828",
+        "vim.visual.foreground": "#282828",
+        "vim.helix_select.foreground": "#ebdbb2",
+        "vim.insert.foreground": "#282828",
+        "vim.visual_line.foreground": "#282828",
+        "vim.visual_block.foreground": "#282828",
+        "vim.replace.foreground": "#ebdbb2",
+        "vim.normal.background": "#83a598",
+        "vim.helix_normal.background": "#83a598",
+        "vim.visual.background": "#d3869b",
+        "vim.helix_select.background": "#d3869b",
+        "vim.insert.background": "#b8bb26",
+        "vim.visual_line.background": "#d3869b",
+        "vim.visual_block.background": "#d3869b",
+        "vim.replace.background": "#fb4934"
+    },
+    "formatter": "prettier",
+    "prettier": {
+        "allowed": true,
+        "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"]
+    },
+    "languages": {
+        "JavaScript": {
+            "language_servers": ["vtsls", "eslint"],
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TypeScript": {
+            "language_servers": ["vtsls", "eslint"],
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "TSX": {
+            "language_servers": ["vtsls", "eslint", "tailwindcss-language-server"],
+            "code_actions_on_format": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "C++": {
+            "language_servers": ["clangd"],
+            "formatter": {
+                "external": {
+                    "command": "clang-format",
+                    "arguments": [
+                        "-assume-filename={buffer_path}",
+                        "-style={BasedOnStyle: Chromium, AlignAfterOpenBracket: BlockIndent, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: AlignAfterOperator, AllowShortBlocksOnASingleLine: Always, IndentWidth: 4, ColumnLimit: 100, TabWidth: 4, UseTab: Never, BinPackParameters: false}"
+                    ]
+                }
+            }
+        }
+    },
+    "format_on_save": "on"
+}

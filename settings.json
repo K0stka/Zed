@@ -13,13 +13,19 @@
             "user": null,
             "projects": [
                 {
-                    "paths": ["/home/k0stka"]
+                    "paths": [
+                        "/home/k0stka"
+                    ]
                 },
                 {
-                    "paths": ["/home/k0stka/vut/IVS/Projekt1/"]
+                    "paths": [
+                        "/home/k0stka/vut/IVS/./"
+                    ]
                 },
                 {
-                    "paths": ["/home/k0stka/vut/IZG/lab1"]
+                    "paths": [
+                        "/home/k0stka/vut/IZG/lab1"
+                    ]
                 }
             ]
         }

@@ -1,4 +1,12 @@
-// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
-//
-// Example:
-[]
+[
+    {
+        "label": "Pull Zed settings from GitHub",
+        "command": "pwsh -NoProfile -Command \"Set-Location $env:APPDATA\\Zed; git pull origin main\"",
+        "reveal": "never",
+    },
+    {
+        "label": "Push Zed settings to GitHub",
+        "command": "pwsh -NoProfile -Command \"Set-Location $env:APPDATA\\Zed; git add .; git commit -m 'Update Zed settings'; git push origin main\"",
+        "reveal": "never",
+    },
+]

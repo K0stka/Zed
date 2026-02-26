@@ -412,14 +412,8 @@
         }
     },
     {
-        "context": "AgentPanel",
         "bindings": {
             "alt-shift-i": "agent::NewThread"
-        }
-    },
-    {
-        "bindings": {
-            "alt-shift-i": null
         }
     },
     {
@@ -437,6 +431,84 @@
         "context": "vim_mode == normal",
         "bindings": {
             "ctrl-a": "editor::SelectAll"
+        }
+    },
+    {
+        "context": "AgentDiff",
+        "bindings": {
+            "ctrl-alt-n": "agent::Reject"
+        }
+    },
+    {
+        "context": "(Editor && editor_agent_diff)",
+        "bindings": {
+            "ctrl-alt-n": "agent::Reject"
+        }
+    },
+    {
+        "context": "AgentDiff",
+        "bindings": {
+            "ctrl-alt-z": null
+        }
+    },
+    {
+        "context": "(Editor && editor_agent_diff)",
+        "bindings": {
+            "ctrl-alt-z": null
+        }
+    },
+    {
+        "context": "AcpThread > Editor",
+        "bindings": {
+            "alt-shift-n": "agent::RejectAll"
+        }
+    },
+    {
+        "context": "AgentDiff",
+        "bindings": {
+            "alt-shift-n": "agent::RejectAll"
+        }
+    },
+    {
+        "context": "(Editor && editor_agent_diff)",
+        "bindings": {
+            "alt-shift-n": "agent::RejectAll"
+        }
+    },
+    {
+        "context": "AgentPanel",
+        "bindings": {
+            "alt-shift-n": "agent::RejectOnce"
+        }
+    },
+    {
+        "context": "AcpThread > Editor",
+        "bindings": {
+            "alt-shift-z": null
+        }
+    },
+    {
+        "context": "AgentDiff",
+        "bindings": {
+            "alt-shift-z": null
+        }
+    },
+    {
+        "context": "(Editor && editor_agent_diff)",
+        "bindings": {
+            "alt-shift-z": null
+        }
+    },
+    {
+        "context": "AgentPanel",
+        "bindings": {
+            "alt-shift-z": null
+        }
+    },
+    {
+        "context": "AgentPanel",
+        "bindings": {
+            "alt-shift-i": null
         }
     }
 ]

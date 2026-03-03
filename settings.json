@@ -8,33 +8,25 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"wsl_connections": [
-  {
-   "distro_name": "Ubuntu",
-   "user": null,
-   "projects": [
-    {
-     "paths": [
-      "/home/k0stka"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IVS/Projekt1"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZG/lab1"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZG/lab2"
-     ]
-    }
-   ]
-  }
- ],
+		{
+			"distro_name": "Ubuntu",
+			"user": null,
+			"projects": [
+				{
+					"paths": ["/home/k0stka"]
+				},
+				{
+					"paths": ["/home/k0stka/vut/IVS/Projekt1"]
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZG/lab1"]
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZG/lab2"]
+				}
+			]
+		}
+	],
 	"ssh_connections": [
 		{
 			"host": "vps",
@@ -69,11 +61,6 @@
 				}
 			},
 			"enable_lsp_tasks": true
-		},
-		"code-stats-ls": {
-			"env": {
-				"CODE_STATS_API_TOKEN": "SFMyNTY.U3pCemRHdGgjI01qY3hOamc9.dOm-xadbKrdOu4rjQ1FjWzylczXU2r-k-Kv9d53dw74"
-			}
 		}
 	},
 	"vim": {

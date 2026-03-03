@@ -8,22 +8,33 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"wsl_connections": [
-		{
-			"distro_name": "Ubuntu",
-			"user": null,
-			"projects": [
-				{
-					"paths": ["/home/k0stka"]
-				},
-				{
-					"paths": ["/home/k0stka/vut/IVS/Projekt1"]
-				},
-				{
-					"paths": ["/home/k0stka/vut/IZG/lab1"]
-				}
-			]
-		}
-	],
+  {
+   "distro_name": "Ubuntu",
+   "user": null,
+   "projects": [
+    {
+     "paths": [
+      "/home/k0stka"
+     ]
+    },
+    {
+     "paths": [
+      "/home/k0stka/vut/IVS/Projekt1"
+     ]
+    },
+    {
+     "paths": [
+      "/home/k0stka/vut/IZG/lab1"
+     ]
+    },
+    {
+     "paths": [
+      "/home/k0stka/vut/IZG/lab2"
+     ]
+    }
+   ]
+  }
+ ],
 	"ssh_connections": [
 		{
 			"host": "vps",
@@ -82,7 +93,7 @@
 	"ui_font_weight": 400.0,
 	"preferred_line_length": 120,
 	"gutter": {
-		"folds": false
+		"folds": true
 	},
 	"scrollbar": {
 		"axes": {

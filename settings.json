@@ -13,29 +13,29 @@
 			"user": null,
 			"projects": [
 				{
-					"paths": ["/home/k0stka"],
+					"paths": ["/home/k0stka"]
 				},
 				{
-					"paths": ["/home/k0stka/vut/IVS/Projekt1"],
+					"paths": ["/home/k0stka/vut/IVS/Projekt1"]
 				},
 				{
-					"paths": ["/home/k0stka/vut/IZG/lab1"],
+					"paths": ["/home/k0stka/vut/IZG/lab1"]
 				},
 				{
-					"paths": ["/home/k0stka/vut/IZG/lab2"],
+					"paths": ["/home/k0stka/vut/IZG/lab2"]
 				},
 				{
-					"paths": ["/home/k0stka/vut/IZLO/IZLO-Projekt-1/"],
-				},
-			],
-		},
+					"paths": ["/home/k0stka/vut/IZLO/IZLO-Projekt-1/"]
+				}
+			]
+		}
 	],
 	"ssh_connections": [
 		{
 			"host": "vps",
 			"args": [],
 			"projects": [],
-			"nickname": "K0stka VPS",
+			"nickname": "K0stka VPS"
 		},
 		{
 			"host": "byttorrent",
@@ -43,10 +43,10 @@
 			"args": [],
 			"projects": [
 				{
-					"paths": ["/home/byttorrent"],
-				},
-			],
-		},
+					"paths": ["/home/byttorrent"]
+				}
+			]
+		}
 	],
 	"use_system_prompts": false,
 	"lsp": {
@@ -54,27 +54,27 @@
 			"settings": {
 				"typescript": {
 					"updateImportsOnFileMove": {
-						"enabled": "always",
-					},
+						"enabled": "always"
+					}
 				},
 				"javascript": {
 					"updateImportsOnFileMove": {
-						"enabled": "always",
-					},
-				},
+						"enabled": "always"
+					}
+				}
 			},
-			"enable_lsp_tasks": true,
-		},
+			"enable_lsp_tasks": true
+		}
 	},
 	"vim": {
 		"use_system_clipboard": "on_yank",
 		"cursor_shape": {
-			"normal": "hollow",
-		},
+			"normal": "hollow"
+		}
 	},
 	"vim_mode": true,
 	"notification_panel": {
-		"button": true,
+		"button": true
 	},
 	"tab_size": 4,
 	"theme": "Gruvbox Dark Hard",
@@ -83,71 +83,71 @@
 	"ui_font_weight": 400.0,
 	"preferred_line_length": 120,
 	"gutter": {
-		"folds": true,
+		"folds": true
 	},
 	"scrollbar": {
 		"axes": {
 			"vertical": true,
-			"horizontal": true,
+			"horizontal": true
 		},
 		"cursors": true,
-		"show": "always",
+		"show": "always"
 	},
 	"indent_guides": {
 		"background_coloring": "disabled",
-		"coloring": "fixed",
+		"coloring": "fixed"
 	},
 	"inline_code_actions": false,
 	"icon_theme": "Colored Zed Icons Theme Dark",
 	"preview_tabs": {
-		"enable_preview_from_project_panel": true,
+		"enable_preview_from_project_panel": true
 	},
 	"agent": {
 		"default_profile": "write",
 		"default_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-5.2-codex",
+			"model": "gpt-5.2-codex"
 		},
 		"dock": "left",
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
-				"model": "gpt-5.3-codex",
+				"model": "gpt-5.3-codex"
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "gemini-3-pro-preview",
-			},
+				"model": "gemini-3-pro-preview"
+			}
 		],
-		"model_parameters": [],
+		"model_parameters": []
 	},
 	"git_panel": {
 		"scrollbar": {
-			"show": "always",
+			"show": "always"
 		},
 		"status_style": "label_color",
 		"tree_view": true,
-		"dock": "right",
+		"dock": "right"
 	},
 	"outline_panel": {
 		"indent_size": 14.0,
 		"file_icons": true,
 		"folder_icons": true,
 		"dock": "right",
-		"button": false,
+		"button": false
 	},
 	"bottom_dock_layout": "left_aligned",
 	"tabs": {
 		"close_position": "right",
 		"show_diagnostics": "all",
 		"file_icons": true,
-		"git_status": true,
+		"git_status": true
 	},
 	"tab_bar": {
 		"show_pinned_tabs_in_separate_row": false,
 		"show_nav_history_buttons": false,
 		"show_tab_bar_buttons": false,
-		"show": true,
+		"show": true
 	},
 	"title_bar": {
 		"show_branch_name": true,
@@ -157,39 +157,39 @@
 		"show_sign_in": true,
 		"show_project_items": true,
 		"show_onboarding_banner": false,
-		"show_branch_icon": true,
+		"show_branch_icon": true
 	},
 	"debugger": {
-		"button": false,
+		"button": false
 	},
 	"terminal": {
 		"alternate_scroll": "on",
 		"toolbar": {
-			"breadcrumbs": false,
+			"breadcrumbs": false
 		},
 		"blinking": "on",
 		"cursor_shape": "bar",
-		"button": false,
+		"button": false
 	},
 	"status_bar": {
 		"cursor_position_button": false,
 		"active_language_button": false,
-		"line_endings_button": false,
+		"line_endings_button": false
 	},
 	"search": {
 		"whole_word": true,
 		"button": false,
-		"center_on_match": true,
+		"center_on_match": true
 	},
 	"use_smartcase_search": true,
 	"diagnostics": {
 		"button": true,
 		"inline": {
-			"enabled": true,
-		},
+			"enabled": true
+		}
 	},
 	"image_viewer": {
-		"unit": "decimal",
+		"unit": "decimal"
 	},
 	"colorize_brackets": false,
 	"inlay_hints": {},
@@ -199,20 +199,20 @@
 		"selections_menu": false,
 		"agent_review": false,
 		"breadcrumbs": false,
-		"code_actions": false,
+		"code_actions": false
 	},
 	"relative_line_numbers": "enabled",
 	"auto_signature_help": false,
 	"buffer_line_height": {
-		"custom": 1.3,
+		"custom": 1.3
 	},
 	"buffer_font_features": {
-		"lign": true,
+		"lign": true
 	},
 	"redact_private_values": true,
 	"when_closing_with_no_tabs": "keep_window_open",
 	"edit_predictions": {
-		"provider": "copilot",
+		"provider": "copilot"
 	},
 	"project_panel": {
 		"entry_spacing": "standard",
@@ -226,12 +226,12 @@
 		"dock": "right",
 		"button": true,
 		"auto_reveal_entries": false,
-		"auto_fold_dirs": false,
+		"auto_fold_dirs": false
 	},
 	"git": {
 		"inline_blame": {
-			"enabled": false,
-		},
+			"enabled": false
+		}
 	},
 	"base_keymap": "VSCode",
 	"buffer_font_family": "Cascadia Code",
@@ -241,7 +241,7 @@
 		"javascript": ["*.dbclient-js"],
 		"jsonl": ["*.ndjson"],
 		"sql": ["*.sqlbook"],
-		"php": ["*.php"],
+		"php": ["*.php"]
 	},
 	"auto_indent_on_paste": true,
 	"linked_edits": true,
@@ -249,10 +249,10 @@
 	"ui_font_size": 16.0,
 	"buffer_font_size": 13.0,
 	"collaboration_panel": {
-		"button": false,
+		"button": false
 	},
 	"file_finder": {
-		"modal_max_width": "large",
+		"modal_max_width": "large"
 	},
 	"file_scan_inclusions": ["**/.env*"],
 	"global_lsp_settings": {
@@ -274,31 +274,43 @@
 		"vim.insert.background": "#b8bb26",
 		"vim.visual_line.background": "#d3869b",
 		"vim.visual_block.background": "#d3869b",
-		"vim.replace.background": "#fb4934",
+		"vim.replace.background": "#fb4934"
 	},
 	"formatter": "prettier",
 	"prettier": {
 		"allowed": true,
-		"plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+		"plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"]
 	},
 	"languages": {
 		"JavaScript": {
 			"language_servers": ["vtsls", "eslint", "code-stats-ls"],
 			"code_actions_on_format": {
-				"source.fixAll.eslint": true,
-			},
+				"source.fixAll.eslint": true
+			}
 		},
 		"TypeScript": {
 			"language_servers": ["vtsls", "eslint", "code-stats-ls"],
 			"code_actions_on_format": {
-				"source.fixAll.eslint": true,
-			},
+				"source.fixAll.eslint": true
+			}
 		},
 		"TSX": {
 			"language_servers": ["vtsls", "eslint", "tailwindcss-language-server", "code-stats-ls"],
 			"code_actions_on_format": {
-				"source.fixAll.eslint": true,
-			},
+				"source.fixAll.eslint": true
+			}
+		},
+		"C": {
+			"language_servers": ["clangd", "code-stats-ls"],
+			"formatter": {
+				"external": {
+					"command": "clang-format",
+					"arguments": [
+						"-assume-filename={buffer_path}",
+						"-style={BasedOnStyle: Chromium, AlignAfterOpenBracket: BlockIndent, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: AlignAfterOperator, AllowShortBlocksOnASingleLine: Always, IndentWidth: 4, ColumnLimit: 100, TabWidth: 4, UseTab: Never, BinPackParameters: false}"
+					]
+				}
+			}
 		},
 		"C++": {
 			"language_servers": ["clangd", "code-stats-ls"],
@@ -307,11 +319,11 @@
 					"command": "clang-format",
 					"arguments": [
 						"-assume-filename={buffer_path}",
-						"-style={BasedOnStyle: Chromium, AlignAfterOpenBracket: BlockIndent, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: AlignAfterOperator, AllowShortBlocksOnASingleLine: Always, IndentWidth: 4, ColumnLimit: 100, TabWidth: 4, UseTab: Never, BinPackParameters: false}",
-					],
-				},
-			},
-		},
+						"-style={BasedOnStyle: Chromium, AlignAfterOpenBracket: BlockIndent, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: AlignAfterOperator, AllowShortBlocksOnASingleLine: Always, IndentWidth: 4, ColumnLimit: 100, TabWidth: 4, UseTab: Never, BinPackParameters: false}"
+					]
+				}
+			}
+		}
 	},
-	"format_on_save": "on",
+	"format_on_save": "on"
 }

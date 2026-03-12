@@ -56,12 +56,6 @@
 		}
 	},
 	{
-		"context": "OutlinePanel",
-		"bindings": {
-			"alt-o": "workspace::ToggleRightDock"
-		}
-	},
-	{
 		"context": "GitPanel",
 		"bindings": {
 			"alt-g": "workspace::ToggleRightDock"
@@ -203,12 +197,6 @@
 	{
 		"context": "Workspace",
 		"bindings": {
-			"alt-o": "outline_panel::ToggleFocus"
-		}
-	},
-	{
-		"context": "Workspace",
-		"bindings": {
 			"ctrl-shift-b": null
 		}
 	},
@@ -299,7 +287,7 @@
 	},
 	{
 		"context": "Editor",
-		"bindings": {
+   "bindings": {
 			"alt-o": "outline::Toggle"
 		}
 	},

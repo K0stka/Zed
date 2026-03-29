@@ -258,7 +258,7 @@
 		}
 	},
 	{
-		"context": "(VimControl)",
+		"context": "VimControl && (vim_mode != insert)",
 		"bindings": {
 			"ctrl-d": "vim::SelectNext"
 		}
@@ -282,7 +282,7 @@
 	},
 	{
 		"context": "Editor",
-   "bindings": {
+		"bindings": {
 			"alt-o": "outline::Toggle"
 		}
 	},
@@ -345,12 +345,6 @@
 		}
 	},
 	{
-		"context": "vim_mode == literal",
-		"bindings": {
-			"ctrl-d": "vim::SelectNext"
-		}
-	},
-	{
 		"context": "(VimControl && !menu)",
 		"bindings": {
 			"ctrl-d": "vim::SelectNext"
@@ -377,12 +371,6 @@
 		"context": "(OutlinePanel && not_editing)",
 		"bindings": {
 			"ctrl-d": null
-		}
-	},
-	{
-		"context": "vim_mode == insert",
-		"bindings": {
-			"ctrl-d": "vim::SelectNext"
 		}
 	},
 	{
@@ -507,9 +495,9 @@
 			"ctrl-`": null
 		}
 	},
- {
-  "bindings": {
-   "alt-i": "agent::Toggle"
-  }
- }
+	{
+		"bindings": {
+			"alt-i": "agent::Toggle"
+		}
+	}
 ]

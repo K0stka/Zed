@@ -74,11 +74,6 @@
 		}
 	},
 	{
-		"bindings": {
-			"alt-i": "workspace::ToggleLeftDock"
-		}
-	},
-	{
 		"context": "Workspace",
 		"bindings": {
 			"ctrl-shift-y": null
@@ -511,5 +506,10 @@
 		"bindings": {
 			"ctrl-`": null
 		}
-	}
+	},
+ {
+  "bindings": {
+   "alt-i": "agent::Toggle"
+  }
+ }
 ]

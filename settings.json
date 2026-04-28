@@ -8,45 +8,33 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"diff_view_style": "split",
- "extend_comment_on_newline": true,
+	"extend_comment_on_newline": true,
 	"wsl_connections": [
-  {
-   "distro_name": "Ubuntu",
-   "user": null,
-   "projects": [
-    {
-     "paths": [
-      "/home/k0stka"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IVS/Projekt1"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZG/lab1"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZG/lab2"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZG/lab5/./"
-     ]
-    },
-    {
-     "paths": [
-      "/home/k0stka/vut/IZLO/IZLO-Projekt-1/"
-     ]
-    }
-   ]
-  }
- ],
+		{
+			"distro_name": "Ubuntu",
+			"user": null,
+			"projects": [
+				{
+					"paths": ["/home/k0stka"],
+				},
+				{
+					"paths": ["/home/k0stka/vut/IVS/Projekt1"],
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZG/lab1"],
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZG/lab2"],
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZG/lab5/./"],
+				},
+				{
+					"paths": ["/home/k0stka/vut/IZLO/IZLO-Projekt-1/"],
+				},
+			],
+		},
+	],
 	"ssh_connections": [
 		{
 			"host": "vps",
@@ -81,6 +69,11 @@
 				},
 			},
 			"enable_lsp_tasks": true,
+		},
+		"dart": {
+			"settings": {
+				"prefer_double_quotes": true,
+			},
 		},
 	},
 	"vim": {
@@ -121,21 +114,26 @@
 	},
 	"agent": {
 		"inline_assistant_model": {
-			"provider": "copilot_chat",
+			"provider": "zed.dev",
 			"model": "gemini-3.1-pro-preview",
 			"enable_thinking": false,
 		},
 		"tool_permissions": {
 			"tools": {
 				"terminal": {
-					"default": "allow",
+					"always_allow": [
+      {
+       "pattern": "^dart\\s+test(\\s|$)"
+      }
+     ],
+     "default": "confirm",
 				},
 			},
 		},
 		"default_profile": "write",
 		"default_model": {
-			"enable_thinking": true,
-   "effort": "high",
+			"enable_thinking": false,
+			"effort": "high",
 			"provider": "copilot_chat",
 			"model": "gemini-3.1-pro-preview",
 		},
@@ -154,6 +152,11 @@
    {
     "provider": "copilot_chat",
     "model": "gemini-3.1-pro-preview",
+    "enable_thinking": false
+   },
+   {
+    "provider": "copilot_chat",
+    "model": "gpt-5.2-codex",
     "enable_thinking": false
    }
   ],
@@ -287,7 +290,8 @@
 	"ui_font_size": 16.0,
 	"buffer_font_size": 13.0,
 	"collaboration_panel": {
-		"button": false,
+		"dock": "left",
+  "button": false,
 	},
 	"file_finder": {
 		"modal_max_width": "large",

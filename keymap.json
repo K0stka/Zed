@@ -9,282 +9,282 @@
 	{
 		"context": "Editor && vim_mode == insert",
 		"bindings": {
-			"ctrl-v": "editor::Paste"
-		}
+			"ctrl-v": "editor::Paste",
+		},
 	},
 
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-j": null
-		}
+			"ctrl-j": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"alt-shift-q": "workspace::NewTerminal"
-		}
+			"alt-shift-q": "workspace::NewTerminal",
+		},
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
-			"ctrl-n": null
-		}
+			"ctrl-n": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-`": null
-		}
+			"ctrl-shift-`": null,
+		},
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
-			"ctrl-w": "pane::CloseActiveItem"
-		}
+			"ctrl-w": "pane::CloseActiveItem",
+		},
 	},
 	{
 		"context": "Editor",
 		"bindings": {
-			"ctrl-g": "editor::GoToDefinition"
-		}
+			"ctrl-g": "editor::GoToDefinition",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-/": null
-		}
+			"ctrl-shift-/": null,
+		},
 	},
 	{
 		"context": "GitPanel",
 		"bindings": {
-			"alt-g": "workspace::ToggleRightDock"
-		}
+			"alt-g": "workspace::ToggleRightDock",
+		},
 	},
 	{
 		"context": "ProjectPanel",
 		"bindings": {
-			"alt-e": "workspace::ToggleRightDock"
-		}
+			"alt-e": "workspace::ToggleRightDock",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-alt-b": null
-		}
+			"ctrl-alt-b": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-y": null
-		}
+			"ctrl-shift-y": null,
+		},
 	},
 	{
 		"context": "Editor",
 		"bindings": {
-			"alt-left": "editor::Fold"
-		}
+			"alt-left": "editor::Fold",
+		},
 	},
 	{
 		"context": "Editor",
 		"bindings": {
-			"alt-right": "editor::UnfoldLines"
-		}
+			"alt-right": "editor::UnfoldLines",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"f20": "command_palette::Toggle"
-		}
+			"f20": "command_palette::Toggle",
+		},
 	},
 	{
 		"bindings": {
-			"f20 enter": "workspace::ToggleZoom"
-		}
+			"f20 enter": "workspace::ToggleZoom",
+		},
 	},
 	{
 		"bindings": {
-			"shift-escape": null
-		}
+			"shift-escape": null,
+		},
 	},
 	{
 		"context": "!ContextEditor > (Editor && mode == full)",
 		"bindings": {
-			"ctrl-k": "assistant::InlineAssist"
-		}
+			"ctrl-k": "assistant::InlineAssist",
+		},
 	},
 	{
 		"context": "!ContextEditor > (Editor && mode == full)",
 		"bindings": {
-			"ctrl-enter": null
-		}
+			"ctrl-enter": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-s": "workspace::SaveWithoutFormat"
-		}
+			"ctrl-shift-s": "workspace::SaveWithoutFormat",
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-alt-o": "workspace::Open"
-		}
+			"ctrl-alt-o": "workspace::Open",
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-k ctrl-o": null
-		}
-	},
-	{
-		"context": "Workspace",
-		"bindings": {
-			"alt-g": "git_panel::ToggleFocus"
-		}
+			"ctrl-k ctrl-o": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-g": null
-		}
+			"alt-g": "git_panel::ToggleFocus",
+		},
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-shift-g": null,
+		},
 	},
 	{
 		"context": "!ContextEditor > (Editor && mode == full)",
 		"bindings": {
-			"alt-e": "pane::RevealInProjectPanel"
-		}
+			"alt-e": "pane::RevealInProjectPanel",
+		},
 	},
 	{
 		"context": "AgentPanel",
 		"bindings": {
-			"alt-e": "project_panel::ToggleFocus"
-		}
+			"alt-e": "project_panel::ToggleFocus",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"alt-e": "project_panel::ToggleFocus"
-		}
+			"alt-e": "project_panel::ToggleFocus",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-e": null
-		}
+			"ctrl-shift-e": null,
+		},
 	},
 	{
 		"context": "AgentPanel",
 		"bindings": {
-			"ctrl-shift-e": null
-		}
+			"ctrl-shift-e": null,
+		},
 	},
 	{
 		"context": "!ContextEditor > (Editor && mode == full)",
 		"bindings": {
-			"ctrl-shift-e": null
-		}
+			"ctrl-shift-e": null,
+		},
 	},
 	{
 		"context": "GitPanel",
 		"bindings": {
-			"alt-enter": "git::Push"
-		}
+			"alt-enter": "git::Push",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-shift-b": null
-		}
+			"ctrl-shift-b": null,
+		},
 	},
 	{
 		"context": "Pane",
 		"bindings": {
-			"alt-right": null
-		}
+			"alt-right": null,
+		},
 	},
 	{
 		"context": "Pane",
 		"bindings": {
-			"alt-left": null
-		}
+			"alt-left": null,
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-alt-left": "pane::ActivatePreviousItem"
-		}
+			"ctrl-alt-left": "pane::ActivatePreviousItem",
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-alt-right": "pane::ActivateNextItem"
-		}
+			"ctrl-alt-right": "pane::ActivateNextItem",
+		},
 	},
 	{
 		"context": "Pane",
 		"bindings": {
-			"ctrl-pageup": null
-		}
+			"ctrl-pageup": null,
+		},
 	},
 	{
 		"bindings": {
 			"ctrl-w": [
 				"pane::CloseActiveItem",
 				{
-					"close_pinned": false
-				}
-			]
-		}
+					"close_pinned": false,
+				},
+			],
+		},
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
-			"alt-right": "workspace::ActivatePaneRight"
-		}
+			"alt-right": "workspace::ActivatePaneRight",
+		},
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
-			"alt-left": "workspace::ActivatePaneLeft"
-		}
+			"alt-left": "workspace::ActivatePaneLeft",
+		},
 	},
 	{
 		"context": "showing_completions",
 		"bindings": {
-			"ctrl-d": null
-		}
+			"ctrl-d": null,
+		},
 	},
 	{
 		"context": "vim_mode == insert",
 		"bindings": {
-			"ctrl-s": "workspace::Save"
-		}
+			"ctrl-s": "workspace::Save",
+		},
 	},
 	{
 		"context": "VimControl && (vim_mode != insert)",
 		"bindings": {
-			"ctrl-d": "vim::SelectNext"
-		}
+			"ctrl-d": "vim::SelectNext",
+		},
 	},
 	{
 		"context": "Editor && VimControl",
 		"bindings": {
-			"alt-k": "editor::MoveLineUp"
-		}
+			"alt-k": "editor::MoveLineUp",
+		},
 	},
 	{
 		"context": "(Editor && VimControl)",
 		"bindings": {
-			"alt-j": "editor::MoveLineDown"
-		}
+			"alt-j": "editor::MoveLineDown",
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-q": null
-		}
+			"ctrl-q": null,
+		},
 	},
 	{
 		"context": "Editor",
 		"bindings": {
-			"alt-o": "outline::Toggle"
-		}
+			"alt-o": "outline::Toggle",
+		},
 	},
 	{
 		"bindings": {
@@ -292,63 +292,63 @@
 				"projects::OpenRemote",
 				{
 					"from_existing_connection": false,
-					"create_new_window": false
-				}
-			]
-		}
+					"create_new_window": false,
+				},
+			],
+		},
 	},
 	{
 		"context": "(Editor && mode == full)",
 		"bindings": {
-			"ctrl-shift-o": null
-		}
+			"ctrl-shift-o": null,
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-alt-shift-o": null
-		}
+			"ctrl-alt-shift-o": null,
+		},
 	},
 	{
 		"context": "!Terminal",
 		"bindings": {
-			"ctrl-shift-c": null
-		}
+			"ctrl-shift-c": null,
+		},
 	},
 	{
 		"context": "KeymapEditor",
 		"bindings": {
-			"ctrl-shift-c": null
-		}
+			"ctrl-shift-c": null,
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-p": "file_finder::Toggle"
-		}
+			"ctrl-p": "file_finder::Toggle",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-p": null
-		}
+			"ctrl-p": null,
+		},
 	},
 	{
 		"context": "(FileFinder || FileFinder > Picker > Editor)",
 		"bindings": {
-			"ctrl-p": null
-		}
+			"ctrl-p": null,
+		},
 	},
 	{
 		"context": "!menu",
 		"bindings": {
-			"f2": "editor::Rename"
-		}
+			"f2": "editor::Rename",
+		},
 	},
 	{
 		"context": "(VimControl && !menu)",
 		"bindings": {
-			"ctrl-d": "vim::SelectNext"
-		}
+			"ctrl-d": "vim::SelectNext",
+		},
 	},
 	{
 		"context": "(!VimControl)",
@@ -356,32 +356,32 @@
 			"ctrl-d": [
 				"editor::SelectNext",
 				{
-					"replace_newest": false
-				}
-			]
-		}
+					"replace_newest": false,
+				},
+			],
+		},
 	},
 	{
 		"context": "(ProjectPanel && not_editing)",
 		"bindings": {
-			"ctrl-d": null
-		}
+			"ctrl-d": null,
+		},
 	},
 	{
 		"context": "(OutlinePanel && not_editing)",
 		"bindings": {
-			"ctrl-d": null
-		}
+			"ctrl-d": null,
+		},
 	},
 	{
 		"bindings": {
-			"ctrl-shift-i": null
-		}
+			"ctrl-shift-i": null,
+		},
 	},
 	{
 		"bindings": {
-			"alt-shift-i": "agent::NewThread"
-		}
+			"alt-shift-i": "agent::NewThread",
+		},
 	},
 	{
 		"context": "Workspace",
@@ -389,132 +389,161 @@
 			"alt-p": [
 				"task::Spawn",
 				{
-					"reveal_target": "center"
-				}
-			]
-		}
+					"reveal_target": "center",
+				},
+			],
+		},
 	},
 	{
 		"context": "vim_mode == normal",
 		"bindings": {
-			"ctrl-a": "editor::SelectAll"
-		}
+			"ctrl-a": "editor::SelectAll",
+		},
 	},
 	{
 		"context": "AgentDiff",
 		"bindings": {
-			"ctrl-alt-n": "agent::Reject"
-		}
+			"ctrl-alt-n": "agent::Reject",
+		},
 	},
 	{
 		"context": "(Editor && editor_agent_diff)",
 		"bindings": {
-			"ctrl-alt-n": "agent::Reject"
-		}
+			"ctrl-alt-n": "agent::Reject",
+		},
 	},
 	{
 		"context": "AgentDiff",
 		"bindings": {
-			"ctrl-alt-z": null
-		}
+			"ctrl-alt-z": null,
+		},
 	},
 	{
 		"context": "(Editor && editor_agent_diff)",
 		"bindings": {
-			"ctrl-alt-z": null
-		}
+			"ctrl-alt-z": null,
+		},
 	},
 	{
 		"context": "AcpThread > Editor",
 		"bindings": {
-			"alt-shift-n": "agent::RejectAll"
-		}
+			"alt-shift-n": "agent::RejectAll",
+		},
 	},
 	{
 		"context": "AgentDiff",
 		"bindings": {
-			"alt-shift-n": "agent::RejectAll"
-		}
+			"alt-shift-n": "agent::RejectAll",
+		},
 	},
 	{
 		"context": "(Editor && editor_agent_diff)",
 		"bindings": {
-			"alt-shift-n": "agent::RejectAll"
-		}
+			"alt-shift-n": "agent::RejectAll",
+		},
 	},
 	{
 		"context": "AgentPanel",
 		"bindings": {
-			"alt-shift-n": "agent::RejectOnce"
-		}
+			"alt-shift-n": "agent::RejectOnce",
+		},
 	},
 	{
 		"context": "AcpThread > Editor",
 		"bindings": {
-			"alt-shift-z": null
-		}
+			"alt-shift-z": null,
+		},
 	},
 	{
 		"context": "AgentDiff",
 		"bindings": {
-			"alt-shift-z": null
-		}
+			"alt-shift-z": null,
+		},
 	},
 	{
 		"context": "(Editor && editor_agent_diff)",
 		"bindings": {
-			"alt-shift-z": null
-		}
+			"alt-shift-z": null,
+		},
 	},
 	{
 		"context": "AgentPanel",
 		"bindings": {
-			"alt-shift-z": null
-		}
+			"alt-shift-z": null,
+		},
 	},
 	{
 		"context": "AgentPanel",
 		"bindings": {
-			"alt-shift-i": null
-		}
+			"alt-shift-i": null,
+		},
 	},
 	{
 		"bindings": {
-			"alt-d": "debug_panel::Toggle"
-		}
-	},
-	{
-		"context": "Workspace",
-		"bindings": {
-			"alt-q": "terminal_panel::Toggle"
-		}
+			"alt-d": "debug_panel::Toggle",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"ctrl-`": null
-		}
+			"alt-q": "terminal_panel::Toggle",
+		},
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-`": null,
+		},
 	},
 	{
 		"bindings": {
-			"alt-i": "agent::Toggle"
-		}
+			"alt-i": "agent::Toggle",
+		},
 	},
- {
-  "bindings": {
-   "alt-m": "editor::ToggleAllDiffHunks"
-  }
- },
- {
-  "context": "Workspace",
-  "bindings": {
-   "alt-w": "project_symbols::Toggle"
-  }
- },
- {
-  "context": "Workspace",
-  "unbind": {
-   "ctrl-t": "project_symbols::Toggle"
-  }
- }
+	{
+		"bindings": {
+			"alt-m": "editor::ToggleAllDiffHunks",
+		},
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"alt-t": "project_symbols::Toggle",
+		},
+	},
+	{
+		"context": "Workspace",
+		"unbind": {
+			"ctrl-t": "project_symbols::Toggle",
+		},
+	},
+	{
+		"context": "Workspace",
+		"unbind": {
+			"alt-t": "task::Rerun",
+		},
+	},
+	{
+		"context": "Terminal",
+		"unbind": {
+			"alt-t": "terminal::RerunTask",
+		},
+	},
+	{
+		"bindings": {
+			"alt-f": "text_finder::Toggle",
+		},
+	},
+	{
+		"context": "AcpThread",
+		"unbind": {
+			"alt-w": "search::ToggleWholeWord",
+		},
+	},
+	{
+		"context": "Pane",
+		"unbind": {
+			"alt-w": "search::ToggleWholeWord",
+		},
+	},
 ]

@@ -508,7 +508,7 @@
 	{
 		"context": "Workspace",
 		"bindings": {
-			"alt-t": "project_symbols::Toggle",
+			"alt-w": "project_symbols::Toggle",
 		},
 	},
 	{

@@ -113,6 +113,7 @@
 		"model_parameters": [],
 	},
 	"git_panel": {
+		"group_by": "staging",
 		"scrollbar": {
 			"show": "always",
 		},

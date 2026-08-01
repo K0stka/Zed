@@ -499,5 +499,22 @@
 		"bindings": {
 			"alt-i": "agent::Toggle"
 		}
-	}
+	},
+ {
+  "bindings": {
+   "alt-m": "editor::ToggleAllDiffHunks"
+  }
+ },
+ {
+  "context": "Workspace",
+  "bindings": {
+   "alt-w": "project_symbols::Toggle"
+  }
+ },
+ {
+  "context": "Workspace",
+  "unbind": {
+   "ctrl-t": "project_symbols::Toggle"
+  }
+ }
 ]

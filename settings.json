@@ -164,12 +164,12 @@
 		"button": false,
 	},
 	"status_bar": {
-		"cursor_position_button": false,
+		"cursor_position_button": true,
 		"active_language_button": false,
 		"line_endings_button": false,
 	},
 	"search": {
-		"whole_word": true,
+		"whole_word": false,
 		"button": false,
 		"center_on_match": true,
 	},

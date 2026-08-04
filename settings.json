@@ -88,7 +88,8 @@
 	"inline_code_actions": false,
 	"icon_theme": "Colored Zed Icons Theme Dark",
 	"preview_tabs": {
-		"enable_preview_from_project_panel": true,
+		"enable_keep_preview_on_code_navigation": true,
+  "enable_preview_from_project_panel": true,
 	},
 	"agent": {
 		"sidebar_side": "left",

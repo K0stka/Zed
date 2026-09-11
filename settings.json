@@ -17,7 +17,11 @@
 		{
 			"host": "vps",
 			"args": [],
-			"projects": [],
+			"projects": [
+				{
+					"paths": ["/./"],
+				},
+			],
 			"nickname": "K0stka VPS",
 		},
 		{
@@ -86,10 +90,10 @@
 		"coloring": "fixed",
 	},
 	"inline_code_actions": false,
-	"icon_theme": "Colored Zed Icons Theme Dark",
+	"icon_theme": "Catppuccin Mocha",
 	"preview_tabs": {
 		"enable_keep_preview_on_code_navigation": true,
-  "enable_preview_from_project_panel": true,
+		"enable_preview_from_project_panel": true,
 	},
 	"agent": {
 		"sidebar_side": "left",
@@ -123,9 +127,9 @@
 		"dock": "right",
 	},
 	"outline_panel": {
+		"folder_indicator": "icon",
 		"indent_size": 14.0,
 		"file_icons": true,
-		"folder_icons": true,
 		"dock": "right",
 		"button": false,
 	},
@@ -205,9 +209,10 @@
 	"redact_private_values": false,
 	"when_closing_with_no_tabs": "keep_window_open",
 	"edit_predictions": {
-		"provider": "copilot",
+		"provider": "zed",
 	},
 	"project_panel": {
+		"folder_indicator": "both",
 		"entry_spacing": "standard",
 		"starts_open": false,
 		"indent_size": 16.0,
@@ -215,7 +220,6 @@
 		"drag_and_drop": true,
 		"hide_root": false,
 		"bold_folder_labels": false,
-		"folder_icons": true,
 		"dock": "right",
 		"button": true,
 		"auto_reveal_entries": false,

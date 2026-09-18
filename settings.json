@@ -1,5 +1,11 @@
 {
-	"show_wrap_guides": false,
+	"markdown_preview": {
+  "open_markdown_files_in_preview": true
+ },
+ "cursor_animation": {
+  "enabled": true
+ },
+ "show_wrap_guides": false,
 	"hard_tabs": false,
 	"auto_indent": "syntax_aware",
 	"cli_default_open_behavior": "existing_window",
@@ -278,6 +284,11 @@
 	},
 	"language_servers": ["...", "code-stats-ls", "codebook"],
 	"languages": {
+		"Jupyter Notebook": {
+			"format_on_save": "off",
+			"remove_trailing_whitespace_on_save": false,
+			"ensure_final_newline_on_save": false
+		},
 		"JavaScript": {
 			"language_servers": ["vtsls", "eslint", "code-stats-ls", "codebook"],
 			"code_actions_on_format": {

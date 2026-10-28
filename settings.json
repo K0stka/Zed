@@ -1,17 +1,29 @@
 {
+	"agent_servers": {
+		"opencode": {
+			"default_config_options": {
+				"mode": "build",
+				"effort": "default",
+				"model": "opencode/muse-spark-1.3-contributor-free",
+			},
+			"type": "custom",
+			"command": "opencode",
+			"args": ["acp"],
+		},
+	},
 	"markdown_preview": {
-  "open_markdown_files_in_preview": true
- },
- "cursor_animation": {
-  "enabled": true
- },
- "show_wrap_guides": false,
+		"open_markdown_files_in_preview": true,
+	},
+	"cursor_animation": {
+		"enabled": true,
+	},
+	"show_wrap_guides": false,
 	"hard_tabs": false,
 	"auto_indent": "syntax_aware",
 	"cli_default_open_behavior": "existing_window",
 	"minimum_split_diff_width": 100.0,
 	"diff_view_style": "split",
-	"extend_comment_on_newline": false,
+	"extend_comment_on_newline": true,
 	"wsl_connections": [
 		{
 			"distro_name": "Ubuntu",
@@ -20,27 +32,31 @@
 		},
 	],
 	"ssh_connections": [
-		{
-			"host": "vps",
-			"args": [],
-			"projects": [
-				{
-					"paths": ["/./"],
-				},
-			],
-			"nickname": "K0stka VPS",
-		},
-		{
-			"host": "byttorrent",
-			"username": "byttorrent",
-			"args": [],
-			"projects": [
-				{
-					"paths": ["/home/byttorrent"],
-				},
-			],
-		},
-	],
+  {
+   "host": "byttorrent",
+   "username": "byttorrent",
+   "args": [],
+   "projects": [
+    {
+     "paths": [
+      "/home/byttorrent"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "vps",
+   "username": "k0stka",
+   "args": [],
+   "projects": [
+    {
+     "paths": [
+      "/home/k0stka"
+     ]
+    }
+   ]
+  }
+ ],
 	"use_system_prompts": false,
 	"lsp": {
 		"vtsls": {
@@ -102,7 +118,18 @@
 		"enable_preview_from_project_panel": true,
 	},
 	"agent": {
-		"sidebar_side": "left",
+		"sandbox_permissions": {
+			"allow_unsandboxed": true,
+		},
+		"threads_sidebar": {
+			"position": "left",
+		},
+		"default_model": {
+			"provider": "zed.dev",
+			"model": "gpt-6.1-sol",
+			"enable_thinking": true,
+			"effort": "medium",
+		},
 		"thinking_display": "preview",
 		"flexible": false,
 		"inline_assistant_model": {
@@ -215,6 +242,7 @@
 	"redact_private_values": false,
 	"when_closing_with_no_tabs": "keep_window_open",
 	"edit_predictions": {
+		"mode": "subtle",
 		"provider": "zed",
 	},
 	"project_panel": {
@@ -287,7 +315,7 @@
 		"Jupyter Notebook": {
 			"format_on_save": "off",
 			"remove_trailing_whitespace_on_save": false,
-			"ensure_final_newline_on_save": false
+			"ensure_final_newline_on_save": false,
 		},
 		"JavaScript": {
 			"language_servers": ["vtsls", "eslint", "code-stats-ls", "codebook"],
@@ -361,6 +389,9 @@
 					"name": "vhdl_ls",
 				},
 			},
+		},
+		"Python": {
+			"formatter": "language_server",
 		},
 	},
 	"format_on_save": "on",

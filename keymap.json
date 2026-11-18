@@ -142,12 +142,6 @@
 		},
 	},
 	{
-		"context": "Workspace",
-		"bindings": {
-			"ctrl-shift-g": null,
-		},
-	},
-	{
 		"context": "!ContextEditor > (Editor && mode == full)",
 		"bindings": {
 			"alt-e": "pane::RevealInProjectPanel",
@@ -546,4 +540,20 @@
 			"alt-w": "search::ToggleWholeWord",
 		},
 	},
+ {
+  "bindings": {
+   "alt-shift-g": "git::ViewUncommittedChanges"
+  }
+ },
+ {
+  "context": "Workspace",
+  "unbind": {
+   "ctrl-shift-g": "git_panel::ToggleFocus"
+  }
+ },
+ {
+  "bindings": {
+   "ctrl-shift-g": "git_graph::Open"
+  }
+ }
 ]

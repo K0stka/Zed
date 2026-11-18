@@ -11,4 +11,59 @@
         "reveal": "never",
         "hide": "on_success",
     },
+    {
+        "label": "Jupyter: pair to script",
+        "command": "python",
+        "args": [
+            "C:\\Users\\kostk\\Documents\\Programming\\ZedExtention\\zed-jupyter\\server\\jupyter_cli.py",
+            "pair",
+            "$ZED_FILE",
+        ],
+        "reveal": "never",
+        "hide": "on_success",
+    },
+    {
+        "label": "Jupyter: sync from script",
+        "command": "python",
+        "args": [
+            "C:\\Users\\kostk\\Documents\\Programming\\ZedExtention\\zed-jupyter\\server\\jupyter_cli.py",
+            "sync",
+            "$ZED_FILE",
+        ],
+        "reveal": "never",
+        "hide": "on_success",
+    },
+    {
+        "label": "Jupyter: clear outputs",
+        "command": "python",
+        "args": [
+            "C:\\Users\\kostk\\Documents\\Programming\\ZedExtention\\zed-jupyter\\server\\jupyter_cli.py",
+            "clear",
+            "$ZED_FILE",
+        ],
+        "reveal": "never",
+        "hide": "on_success",
+    },
+    {
+        "label": "Jupyter: validate notebook",
+        "command": "python",
+        "args": [
+            "C:\\Users\\kostk\\Documents\\Programming\\ZedExtention\\zed-jupyter\\server\\jupyter_cli.py",
+            "validate",
+            "$ZED_FILE",
+        ],
+        "reveal": "never",
+        "hide": "on_success",
+    },
+    {
+        "label": "Jupyter: run all cells",
+        "command": "python",
+        "args": [
+            "C:\\Users\\kostk\\Documents\\Programming\\ZedExtention\\zed-jupyter\\server\\jupyter_cli.py",
+            "run",
+            "$ZED_FILE",
+        ],
+        "reveal": "always",
+        "hide": "on_success",
+    },
 ]

@@ -1,5 +1,8 @@
 {
-	"agent_servers": {
+	"sticky_scroll": {
+  "enabled": true
+ },
+ "agent_servers": {
 		"opencode": {
 			"default_config_options": {
 				"mode": "build",
